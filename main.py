@@ -1,12 +1,12 @@
 
 from list_ops import custom_append, custom_insert, custom_pop, custom_remove
 
-my_list = [1, 2, 3]
+my_list = ["Mango", "Apple", "Orange"]
 
 print("Original list:", my_list)
 
 # Append
-custom_append(my_list, 4)
+custom_append(my_list, "Watermelon")
 print("After append 4:", my_list)
 
 # Insert

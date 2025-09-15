@@ -32,4 +32,3 @@ def custom_remove(lst, item):
             lst[:] = lst[:i] + lst[i+1:]
             return lst
     raise ValueError(f"{item} not in list")
-
